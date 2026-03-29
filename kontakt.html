@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Okeani Sveta — Kontakt</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-arctic">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.svg" alt="Okeani Sveta logo" width="36" height="36" />
+          Okeani Sveta
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Početna</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="okeani.html"
+                >Okeani</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html"
+                >Galerija</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="o-nama.html"
+                >O nama</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html"
+                >Kontakt</a
+              >
+            </li>
+            <li class="nav-item" id="nav-login-item">
+              <a class="nav-link" href="login.html"
+                >Prijava</a
+              >
+            </li>
+          </ul>
+          <a class="lang-toggle" href="en/contact.html">EN</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-header frost-section">
+      <div class="container">
+        <span class="eyebrow">Kontakt</span>
+        <h1 class="display-title">Kontakt</h1>
+        <hr class="hairline-short centered" />
+        <p class="section-subtitle centered">
+          Imate pitanje ili predlog? Pišite nam!
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-9">
+            <form id="contact-form" class="form-arctic" novalidate>
+              <div class="form-group">
+                <label
+                  for="contact-name"
+                  class="form-label"
+                 
+                  >Ime i prezime</label
+                >
+                <input
+                  type="text"
+                  id="contact-name"
+                  class="form-control"
+                 
+                  placeholder="Unesite ime i prezime"
+                  required
+                />
+                <div
+                  class="field-hint"
+                  id="contact-name-hint"
+                 
+                >
+                  Dozvoljeno: slova i razmaci, 2–50 karaktera
+                </div>
+                <div
+                  class="field-error"
+                  id="contact-name-error"
+                 
+                >
+                  Ime mora sadržati samo slova i razmake (2–50 karaktera)
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="contact-email"
+                  class="form-label"
+                 
+                  >Email adresa</label
+                >
+                <input
+                  type="email"
+                  id="contact-email"
+                  class="form-control"
+                 
+                  placeholder="Unesite email adresu"
+                  required
+                />
+                <div
+                  class="field-hint"
+                  id="contact-email-hint"
+                 
+                >
+                  Primer: ime@domen.com
+                </div>
+                <div
+                  class="field-error"
+                  id="contact-email-error"
+                 
+                >
+                  Unesite ispravnu email adresu
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="contact-message"
+                  class="form-label"
+                 
+                  >Poruka</label
+                >
+                <textarea
+                  id="contact-message"
+                  class="form-control"
+                  rows="5"
+                 
+                  placeholder="Unesite vašu poruku"
+                  required
+                ></textarea>
+                <div
+                  class="field-hint"
+                  id="contact-message-hint"
+                 
+                >
+                  Minimum 10 karaktera, maksimum 500
+                </div>
+                <div
+                  class="field-error"
+                  id="contact-message-error"
+                 
+                >
+                  Poruka mora imati između 10 i 500 karaktera
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="btn-arctic-solid"
+               
+              >
+                Pošaljite poruku
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-arctic">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="footer-brand">
+              <img
+                src="logo.svg"
+                alt="Okeani Sveta logo"
+                width="36"
+                height="36"
+              />
+              Okeani Sveta
+            </div>
+            <p>
+              Edukativna platforma posvećena istraživanju i očuvanju svetskih
+              okeana.
+            </p>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <h5>Brzi linkovi</h5>
+            <ul>
+              <li><a href="index.html">Početna</a></li>
+              <li><a href="okeani.html">Okeani</a></li>
+              <li>
+                <a href="galerija.html">Galerija</a>
+              </li>
+              <li><a href="o-nama.html">O nama</a></li>
+              <li>
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <h5>Kontakt</h5>
+            <ul>
+              <li>
+                ✉ <span>info@okeansveta.rs</span>
+              </li>
+              <li>☎ <span>+381 20 123 456</span></li>
+              <li>
+                📍 <span>Novi Pazar, Srbija</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 Okeani Sveta. Sva prava zadržana.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
